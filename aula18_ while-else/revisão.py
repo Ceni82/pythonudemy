@@ -38,7 +38,10 @@ while True:
     num_1 = input('digite uma numero:')
     num_2 = input('digite outro numero:')
     operador = input('digite um operador:')
+    sair = input('deseja sair? S[im]/N[ão]')
 
+    if sair == 's':
+        break
     if not num_1.isnumeric() or not num_2.isnumeric():
         print('digite um valor valido!')
         continue
