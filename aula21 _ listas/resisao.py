@@ -88,6 +88,7 @@ str = 'txt'
 
 secret = 'perfume'
 digit = []
+chances = 4
 while True:
     letra = input('Digite uma letra:')
 
@@ -107,5 +108,13 @@ while True:
             secreto_temp += letra_secreta
         else:
             secreto_temp += '*'
-    print(secreto_temp)
+    if secreto_temp == secret:
+        print(f'deu boa!!! a palavra era {secreto_temp}')
+        break
+    else:
+        print(f' a palavra secreta esta assim: {secreto_temp}')
 
+    if letra not in secret:
+        chances -= 1
+    print(f' vc ainda tem {chances} chances')
+    print()
