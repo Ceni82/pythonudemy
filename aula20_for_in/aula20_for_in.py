@@ -1,4 +1,4 @@
- '''
+'''
 
 AULA 20 - FOR IN - 21/02/22
 
@@ -6,7 +6,6 @@ For in em Python
 Iterando stringd com for
 Função range(star=0, stop, step=1)
 '''
-
 texto = 'Python'
 
 for letra in texto:
