@@ -3,7 +3,7 @@ Manipulação de Strings
 
  * Strings indices
  * Fatiamento de strings (inicio:fim:passo)
- * Funções built-n len, abs, type, preint, etc...
+ * Funções built-n len, abs, type, print, etc...
 Essas funções podem ser usadas diretamente em cada tipo.
 '''
 

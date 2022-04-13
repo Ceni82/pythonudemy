@@ -81,16 +81,16 @@ print(l2)
 l2 = list(range(1,100,8))
 for valor in l2:
     print(valor)
-
+'''
 #-----------------
 #ind  0 1 2 3 4 5 6 7 8
-l2 = [1,2,3,4,5,6,7,8,9]
-
-soma = 0
-for valor in l2:
-    soma = soma + valor
-print(soma)
-
+# l2 = [1,2,3,4,5,6,7,8,9]
+#
+# soma = 0
+# for valor in l2:
+#     soma = soma + valor
+# print(soma)
+'''
 #---------------
 
 l2 = ['String', True, 10, -10.5]

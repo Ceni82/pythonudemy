@@ -64,7 +64,7 @@ str = 'txt'
 # print(lista2)
 # del (lista2[3:5])
 # print(lista2)
-#
+
 
 #
 # lista2 = [1,2,3,4,5,6,7,8,9]
